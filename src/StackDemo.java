@@ -52,6 +52,10 @@ public class StackDemo <E> implements Iterable<E>{
 		return temp;
 	}
 	
+	public boolean contains(E val) {
+		return list.contains(val);
+	}
+	
 	public int size() {
 		return count;
 	}
